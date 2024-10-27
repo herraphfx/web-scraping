@@ -8,6 +8,8 @@ import time
 from assets import HEADLESS_OPTIONS, HEADLESS_OPTIONS_DOCKER, USER_AGENTS
 from utils import is_running_in_docker
 
+
+
 def setup_selenium(attended_mode: bool = False) -> webdriver.Chrome:
     """Set up and configure Selenium WebDriver."""
     options = Options()
